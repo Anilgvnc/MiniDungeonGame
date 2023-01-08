@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Quests extends Battle{
     
-    public void beginnig(){
+    public void beginning(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Welcome to Mini Dungeon.");
         System.out.println("???: Welcome traveller what is your name.\n(Enter your nickname here): ");
