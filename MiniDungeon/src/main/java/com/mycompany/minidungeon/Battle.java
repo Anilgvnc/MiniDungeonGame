@@ -29,7 +29,7 @@ public class Battle extends Enemies{
             if (turn == true && super.enemyHealth != 0 && super.health != 0) {
                 System.out.println("Your turn!");
                 if (super.level < 2) {
-                    System.out.println("(1)Attack \n(2)??? \n(3)Stats");
+                    System.out.println("(1)Attack \n(2)??? ");
                     choice = scanner.nextInt();
                     switch(choice){
                     case 1:
@@ -45,7 +45,7 @@ public class Battle extends Enemies{
                 }
                 
                 else{
-                    System.out.println("(1)Attack \n(2)??? \n(3)Stats");
+                    System.out.println("(1)Attack \n(2)??? ");
                     choice = scanner.nextInt();
                     switch(choice){
                     case 1:
